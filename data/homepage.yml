@@ -1,0 +1,117 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Kunal."
+  subtitle: "Btech - CSE"
+  description: "I study at <a target='_blank' href='https://www.amrita.edu/campus/amritapuri/'>Amrita University, amritapuri</a>, pursuing my bachelors in Computer Science Engineering. I love to code, contibute in huge projects and especially build my CV."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Email me"
+    URL: "mailto:kunalachintya@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://in.linkedin.com/in/kunal-achintya-reddy-06aa80217"
+
+    - icon: "github"
+      URL: "https://github.com/globalnebula"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/kunalachintya"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/kunalachintyareddy/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    I am a person who loves to code, and contribute to big projects, I also enjoy studying astrophysics and participating in olympiads and other competitions. Apart from studies I enjoy gaming. I play games such as Valorant and Fortnite.
+    </p>
+    <p class="lead">
+    My experience in coding lies in the area of front-end web design. I am also interested in concepts such as AI and ML although I dont even know the bare minimum of those topics, I have the enough interest and zeal to learn about them and do some projects in that field.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://in.linkedin.com/in/kunal-achintya-reddy-06aa80217"
+  image:
+    x: "img/who-am-i/user-picture.png"
+    _2x: "img/who-am-i/user-picture@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Amrita University, amritapuri"
+      year: "2023-2027(expected)"
+      degree: "Bachelor of Computer Science and Engineering (Btech - CSE)"
+
+    - university: "Ramanuja Jr College"
+      year: "2009-2012"
+      degree: "High School Diploma, Physics, Maths, Chemistry (PCM)"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://in.linkedin.com/in/kunal-achintya-reddy-06aa80217"
+
+  items:
+    - title: "Web Development"
+      company: "Weavy SDK (Hackathon)"
+      duration: "Feb 2021 - Apr 2021"
+
+    - title: "Web Design"
+      company: "Route Mobile AI (Hackathon)"
+      duration: "Jan 2022 - Feb 2022"
+
+    - title: "Web Development"
+      company: "TechXcelerate (Hackathon)"
+      duration: "Jul 2023 - Aug 2023"
+
+# Client & Work
+client_and_work:
+  title: "Achievements"
+  enable: true
+  works:
+    - title: "International Space Olympiad, ISO"
+      description: "I have been to the International Space Olympiad, in the year 2022 and secured All India Rank 13 (AIR 13), in which I studied about the neublar hypothesis and stellar cycle in detail."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "About ISO"
+        URL: "https://internationalspaceolympiad.com/"
+      is_even: true
+
+    - title: "Indian Space Science Olympiad, ISSO"
+      description: "I participated in the Inidan Space Science Olmpiad, and secured AIR 12. I also had the previlige to meet and talk with Padmashri M Chandradathan, who was working in liquid propulsions. During this I studied few books written by Stephen Hawkings"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "About ISSO"
+        URL: "https://spaceolympiad.com/"
+      is_even: false
+
+    - title: "Saevus Eco achievers Olympiad"
+      description: "I represented my school at national levels in the Saveus Eco Achievers Olympiad an dbagged the Trophy and a goldmedal for 3rd place among 200 participating cities."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "About Saevus"
+        URL: "https://www.ecoachievers.in/eco-achievers-quiz.html"
+      is_even: true
+
+# contact
+contact:
+  enable: true
+  title: "Blog"
